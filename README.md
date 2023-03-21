@@ -1,4 +1,4 @@
-#### Hardware accelerated AV1 encoding requires GPU with Ada Lovelace Architecture (nvidia L40 for datacenters not included in this list but has required architecture): https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new
+#### Hardware accelerated AV1 encoding requires an Ada Lovelace Architecture GPU (nvidia L40 for datacenters not included in this list but has required architecture): https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new
 
 1. Download and install CUDA: https://developer.nvidia.com/cuda-downloads  
   Note: There will be prompt during installation asking about installable components, select Driver there besides default selected components.
