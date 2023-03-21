@@ -1,10 +1,10 @@
 #### For AV1 hardware accelerated encoding GPU with Ada Lovelace Architecture required (nvidia L40 for datacenters not included in this list but has required architecture): https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new
 
 1. Download and install CUDA: https://developer.nvidia.com/cuda-downloads
-	Note: There will be prompt during installation asking about installable components, select Driver there besides default selected components.
+  Note: There will be prompt during installation asking about installable components, select Driver there besides default selected components.
 
 2. Install Nvidia Container Toolkit: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#install-guide
-	Note: in Ubuntu apt may not be able to find repository for nvidia-container-toolkit-base, if so setup repository manually:
+  Note: in Ubuntu apt may not be able to find repository for nvidia-container-toolkit-base, if so setup repository manually:
 	```
 	distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
       && curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
