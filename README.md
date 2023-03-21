@@ -17,4 +17,4 @@
 
 4. Build image.
 
-5. Run container: `sudo docker run --runtime=nvidia --gpus all -e NVIDIA_DRIVER_CAPABILITIES=video,compute,utility <CONTAINER_NAME> <COMMAND>`
+5. Run container: `sudo docker run --runtime=nvidia --gpus all -e NVIDIA_DRIVER_CAPABILITIES=video,compute,utility <IMAGE_NAME> <COMMAND>`
